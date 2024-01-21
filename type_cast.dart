@@ -1,16 +1,12 @@
 void main(List<String> args) {
   var number = 10;
 
-  print(
-      "var value ${number}"); // this will make int to double only in this line
+  print("var value ${number}");
 
-  print(
-      "var value runtime type: ${number.runtimeType}"); // this will make int to double only in this line
+  print("var value runtime type: ${number.runtimeType}");
   print("====================");
-  print(
-      "double value ${number.toDouble()}"); // this will make int to double only in this line
-  print(
-      "double value runtime type: ${number.toDouble().runtimeType}"); // this will make int to double only in this line
+  print("double value ${number.toDouble()}");
+  print("double value runtime type: ${number.toDouble().runtimeType}");
 
   var booleanValue = true;
   print("====================");
